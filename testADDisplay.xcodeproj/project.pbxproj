@@ -14,6 +14,7 @@
 		5C6319921AC4FA8800E92A8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6319911AC4FA8800E92A8D /* Images.xcassets */; };
 		5C6319951AC4FA8800E92A8D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C6319931AC4FA8800E92A8D /* LaunchScreen.xib */; };
 		5C6319A11AC4FA8900E92A8D /* testADDisplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6319A01AC4FA8900E92A8D /* testADDisplayTests.m */; };
+		5C6319AF1AC4FB3800E92A8D /* GEScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6319AE1AC4FB3800E92A8D /* GEScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		5C63199A1AC4FA8900E92A8D /* testADDisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testADDisplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C63199F1AC4FA8900E92A8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C6319A01AC4FA8900E92A8D /* testADDisplayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testADDisplayTests.m; sourceTree = "<group>"; };
+		5C6319AD1AC4FB3800E92A8D /* GEScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GEScrollView.h; sourceTree = "<group>"; };
+		5C6319AE1AC4FB3800E92A8D /* GEScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GEScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				5C6319891AC4FA8800E92A8D /* AppDelegate.m */,
 				5C63198B1AC4FA8800E92A8D /* ViewController.h */,
 				5C63198C1AC4FA8800E92A8D /* ViewController.m */,
+				5C6319AD1AC4FB3800E92A8D /* GEScrollView.h */,
+				5C6319AE1AC4FB3800E92A8D /* GEScrollView.m */,
 				5C63198E1AC4FA8800E92A8D /* Main.storyboard */,
 				5C6319911AC4FA8800E92A8D /* Images.xcassets */,
 				5C6319931AC4FA8800E92A8D /* LaunchScreen.xib */,
@@ -222,6 +227,7 @@
 				5C63198D1AC4FA8800E92A8D /* ViewController.m in Sources */,
 				5C63198A1AC4FA8800E92A8D /* AppDelegate.m in Sources */,
 				5C6319871AC4FA8800E92A8D /* main.m in Sources */,
+				5C6319AF1AC4FB3800E92A8D /* GEScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
